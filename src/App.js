@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Slider from './slider/slider';
+import Nav from './nnaavv/nnaavv';
+import Manwork from './manwork/manwork';
+import Nanana from './nanana/nanana';
+import Contenty from './contenty/contenty';
+import Trimmy from './trimmy/trimmy';
+import Aftrimmy from './aftrimmy/aftrimmy';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <section>
+  <Slider/>
+  <Nav/>
+  <Manwork/>
+  <Nanana/>
+  <Contenty/>
+  <Trimmy/>
+  <Aftrimmy/>
+  </section>
+    );
 }
 
 export default App;
+ 

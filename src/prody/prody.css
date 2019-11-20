@@ -1,0 +1,14 @@
+body{
+  
+  width: 100%;
+  min-height: 100;
+  
+}
+.product{
+  width: 100%;
+  min-height: 100;
+  padding: 1%;
+  border: 1px ridge black;
+  margin-top:20px;
+}
+

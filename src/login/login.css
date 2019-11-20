@@ -1,0 +1,16 @@
+body{
+  
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 100;
+  
+}
+.login{
+  width: 35%;
+  min-height: 100;
+  padding: 3%;
+  border: 1px ridge black;
+  margin: 5%;
+}
+

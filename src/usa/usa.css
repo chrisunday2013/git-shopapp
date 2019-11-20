@@ -1,0 +1,16 @@
+body{
+margin:0;
+padding:0;
+  
+}
+.user{
+  width: 100%;
+  min-height: 100;
+  padding: 1%;
+  border: 1px ridge black;
+  margin-top: 27px;
+
+}
+.user .input type{
+  width: 20%;
+}
