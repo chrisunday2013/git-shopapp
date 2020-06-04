@@ -1,25 +1,22 @@
-import React from 'react';
-import Slider from './slider/slider';
-import Nav from './nnaavv/nnaavv';
-import Manwork from './manwork/manwork';
-import Nanana from './nanana/nanana';
-import Contenty from './contenty/contenty';
-import Trimmy from './trimmy/trimmy';
-import Aftrimmy from './aftrimmy/aftrimmy';
+import React, {Component} from "react";
+import UserForm from "./components/userForm"
 
-function App() {
-  return (
-  <section>
-  <Slider/>
-  <Nav/>
-  <Manwork/>
-  <Nanana/>
-  <Contenty/>
-  <Trimmy/>
-  <Aftrimmy/>
-  </section>
-    );
+
+
+
+
+class App extends Component {
+
+
+  render() {
+    return(
+      <div>
+      <UserForm/>
+      </div>
+    )
+  }
 }
 
+
+
 export default App;
- 
